@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/p5.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/draw.js"></script>
+</head>
+<style>
+    .grow {
+        transition: transform 0.75s;
+        }
+
+    .grow:hover{
+        transform: scale(1.05);
+    }
+    body {
+        filter: drop-shadow(20px 20px 30px #6d4e37);
+
+
+        .book{
+            margin-top: -15px;
+            margin-left: 1400px;
+
+         
+        }
+        .poem{
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+        .drawing{
+            margin-left: 1500px;
+            margin-top: -300px;
+        }
+        .portfolio{
+            margin-top: -750px;
+            margin-left: 600px;
+        }
+    }
+</style>
+<body>
+    <p class="book grow">
+        <a href="1.html">
+            <img src="Hypertext.PNG" alt="">
+        </a>
+    </p>
+    <p class="poem grow">
+        <a href="poem.html">
+            <img src="Poem.PNG" alt="poem">
+        </a>
+    </p>
+    <p class="drawing grow">
+        <a href="opacity drawing page.html">
+            <img src="Drawing thing.PNG" alt="pen">
+        </a>
+    </p>
+    <p class="portfolio">
+        <a href="portfolio.html">
+            <img src="Portfolio.PNG" alt="sketchbook">
+        </a>
+    </p>
+</body>
+<style>
+    body {
+        background-image: url(desk\ redo.PNG);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: contain;
+
+    }
+</style>
+</html>
